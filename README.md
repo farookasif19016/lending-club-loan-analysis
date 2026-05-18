@@ -11,6 +11,7 @@ The project combines exploratory data analysis, data cleaning, validation, stati
 The analysis was designed to answer the following lending and portfolio-risk questions:
 
 •	Which borrower characteristics most strongly influence interest rates?
+
 •	Which borrower segments contribute disproportionately to charge-offs and default risk?
 •	Does verification status genuinely influence default behaviour, or are underlying risk variables driving the relationship?
 •	How are portfolio losses concentrated across borrower grades and risk segments?	
