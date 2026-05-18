@@ -158,26 +158,16 @@ This likely reflects:
 
 The finding highlights how lenders incorporate uncertainty into risk-based pricing strategies.
 
-## Credit Risk Concepts Applied
+## Credit Risk Concepts Referenced
 
-The project explored several core fintech and lending-risk concepts:
+The analysis was framed within core fintech 
 
-•	Probability of Default (PD)
+lending-risk concepts:
 
-•	Exposure at Default (EAD)
-
-•	Loss Severity / Loss Given Default (LGD)
-
-•	Delinquency and charge-off behaviour
-
-•	Portfolio exposure concentration
-
-•	Borrower segmentation
-
-•	Risk-based pricing
-
-•	Underwriting quality and portfolio deterioration
-
+•	Probability of Default — charge-off rate used as a proxy measure across borrower segments
+•	Exposure at Default — outstanding loan balances referenced to contextualise portfolio loss concentration  
+•	Loss Given Default — charge-off outcomes used to approximate loss severity across grade segments
+  
 ## Dashboard Preview
 
 The Power BI dashboard was designed to visualise:
