@@ -13,8 +13,11 @@ The analysis was designed to answer the following lending and portfolio-risk que
 •	Which borrower characteristics most strongly influence interest rates?
 
 •	Which borrower segments contribute disproportionately to charge-offs and default risk?
+
 •	Does verification status genuinely influence default behaviour, or are underlying risk variables driving the relationship?
+
 •	How are portfolio losses concentrated across borrower grades and risk segments?	
+
 •	Which variables appear to be strong vs weak indicators of borrower default risk?
 
 ## Analytical Approach
