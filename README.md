@@ -165,7 +165,9 @@ The analysis was framed within core fintech
 lending-risk concepts:
 
 •	Probability of Default — charge-off rate used as a proxy measure across borrower segments
-•	Exposure at Default — outstanding loan balances referenced to contextualise portfolio loss concentration  
+
+•	Exposure at Default — outstanding loan balances referenced to contextualise portfolio loss concentration 
+
 •	Loss Given Default — charge-off outcomes used to approximate loss severity across grade segments
   
 ## Dashboard Preview
