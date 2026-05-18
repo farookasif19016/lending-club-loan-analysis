@@ -25,24 +25,35 @@ The analysis was designed to answer the following lending and portfolio-risk que
 The project followed a structured analytical workflow commonly used in fintech and lending analytics:
 
 •	Business understanding and risk framing
+
 •	Exploratory Data Analysis (EDA)
+
 •	Data cleaning and preprocessing
+
 •	Data validation and consistency checks
+
 •	Borrower segmentation and risk analysis
+
 •	Portfolio-level business interpretation
+
 •	Dashboard visualisation in Power BI
 
 Tools & Technologies
 
 •	Python — data analysis workflow
+
 •	Pandas — cleaning, manipulation, aggregation
+
 •	Jupyter Notebook — analysis environment
+
 •	Power BI — dashboard and visual storytelling
 
 Dataset Information
 
 •	Source: Kaggle LendingClub Loan Dataset
+
 •	Original dataset: 39,717 rows × 111 columns
+
 •	Final analytical dataset: 39,715 rows × 49 validated columns
 
 The dataset contains borrower financial profiles, loan characteristics, repayment behaviour, interest rates, verification status, and charge-off outcomes.
@@ -52,26 +63,37 @@ The dataset contains borrower financial profiles, loan characteristics, repaymen
 The project included:
 
 •	Removal of fully empty and low-value columns
+
 •	Missing value treatment using median, mode, zero-fill, and logical handling
+
 •	Data type correction for percentage-based variables
+
 •	Range validation for loan amounts, DTI, and interest rates
+
 •	Consistency validation between funded amounts, grades, and pricing behaviour
+
 •	Validation of borrower segmentation logic before analysis
 
 Examples of validation checks:
 
 •	Interest rates must remain between 0–100%
+
 •	Funded amount cannot exceed loan amount
+
 •	Higher loan grades should correspond to higher average interest rates
+
 •	Negative DTI and impossible loan values investigated separately
 
 ## Key Business Findings
+
 ## 1. Loan Grade Is the Strongest Risk Indicator
 
 Loan grade showed the clearest relationship with both interest rate pricing and charge-off behaviour.
 
 •	Grade A borrowers averaged 7.33% interest rates
+
 •	Grade G borrowers averaged 21.31%
+
 •	Charge-off rates increased materially across lower grades
 	
 This suggests the grading system effectively captures borrower risk and plays a central role in underwriting and pricing decisions.
@@ -91,7 +113,9 @@ Although charged-off borrowers showed slightly higher DTI levels, the difference
 This suggests:
 
 •	DTI alone has limited predictive power
+
 •	Affordability pressure may not independently explain default behaviour
+
 •	Additional behavioural and credit-risk variables are required for stronger risk assessment
 
 ## 4. Income Stability Influences Repayment Behaviour
@@ -99,6 +123,7 @@ This suggests:
 Charged-off borrowers earned approximately 10.6% less on average compared to fully paid borrowers.
 
 •	Charged-off average income: ~£62,427
+
 •	Fully paid average income: ~£69,862
 
 While income was not the strongest predictor independently, lower income levels appeared associated with weaker repayment stability.
@@ -126,7 +151,9 @@ Small business loans exhibited some of the highest average interest rates within
 This likely reflects:
 
 •	unpredictable revenue patterns
+
 •	higher operational uncertainty
+
 •	elevated repayment risk compared to standard consumer borrowing
 
 The finding highlights how lenders incorporate uncertainty into risk-based pricing strategies.
@@ -136,12 +163,19 @@ The finding highlights how lenders incorporate uncertainty into risk-based prici
 The project explored several core fintech and lending-risk concepts:
 
 •	Probability of Default (PD)
+
 •	Exposure at Default (EAD)
+
 •	Loss Severity / Loss Given Default (LGD)
+
 •	Delinquency and charge-off behaviour
+
 •	Portfolio exposure concentration
+
 •	Borrower segmentation
+
 •	Risk-based pricing
+
 •	Underwriting quality and portfolio deterioration
 
 ## Dashboard Preview
@@ -149,9 +183,13 @@ The project explored several core fintech and lending-risk concepts:
 The Power BI dashboard was designed to visualise:
 
 •	default distribution across borrower grades
+
 •	interest rate segmentation
+
 •	borrower income and DTI comparisons
+
 •	charge-off concentration
+
 •	portfolio-level risk trends
 
 <img width="1169" height="657" alt="image" src="https://github.com/user-attachments/assets/20dde0c6-1f0a-47d0-af5c-66971b6ec431" />
@@ -169,9 +207,13 @@ dashboard/    -> Power BI dashboard (.pbix)
 This project demonstrates:
 
 •	structured analytical thinking
+
 •	fintech and lending-domain understanding
+
 •	portfolio-risk reasoning
+
 •	borrower segmentation analysis
+
 •	business-focused interpretation of financial datasets
 
 Beyond technical analysis, the project focuses on explaining how borrower characteristics influence lending risk, pricing behaviour, and portfolio stability within a real-world fintech context.
